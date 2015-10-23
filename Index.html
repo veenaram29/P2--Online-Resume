@@ -1,0 +1,136 @@
+# P2--Online-Resume
+CSS styling is added in HTML file itself
+<!DOCTYPE html PUBLIC >
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>One Page Resume</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
+</head>
+
+<body>
+
+    <div id="page-wrap">
+
+        <img src="images/myphoto.jpg" alt="Photo of Cthulu" id="pic"  height="210" width="150">/>
+
+        <div id="contact-info" class="vcard">
+
+            <!-- Microformats! -->
+            
+            <h1 class="fn">Veena Ram</h1>
+
+            <p>
+                Cell: <span class="tel">917-714-9272</span><br />
+                Email: <a class="email" href="mailto:veena.ram.29@gmail.com">veena.ram.29@gmail.com</a>
+            </p>
+        </div>
+
+        <div id="objective">
+            <p>
+                I have a love towards color, transformation, simplicity and innovation. I am an Interaction
+designer and fine art Artist in extending my interest to make design more user experience specified which will make a
+change in peoples lives.
+            </p>
+        </div>
+
+        <div class="clear"></div>
+
+        <dl>
+            <dd class="clear"></dd>
+
+            <dt>Education</dt>
+            <dd>
+
+                  <h2>SRM Valliammai Engineering College, Chennai, India</h2>
+                  <p><strong>Major:</strong> Electrical Engineering (2006-2010)</p>
+                  <h2>Loyola Institute of Business Administration, Chennai, India</h2>
+                  <p><strong>Minor:</strong> International Business Management (2010-2011)</p>
+                  <h2>Stanford university, Palo Alto, California, USA</h2>
+                  <p> <strong>Minor:</strong> Stanford Continuing Studies (2012-2013) </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Skills</dt>
+            <dd>
+                <h2>Computer skills</h2>
+                <p>Microsoft Word, Excel, Access, PowerPoint</p>
+
+                <h2>Design skills</h2>
+                <p> Adobe Creative Suite</p>
+
+                <h2>Programming skills</h2>
+                <p> HTML,CSS,Java,Python</p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Experience</dt>
+            <dd>
+                <h2>Flextronics Technologies PVT LTD <span>Junior Engineer - India - 2011-2012</span></h2>
+                <ul>
+                    <li>Developing Inventory and process manufacturing process tracking systems.</li>
+                    <li>Strong team player at work, managing good customer relationship.</li>
+                    <li>Received a Super star award for good team player, excellent commitment in preparing the
+                    visual dashboard</li>
+                </ul>
+
+                <h2>Techknowledge Education <span>Intern - India - 2011</span></h2>
+                <ul>
+                    <li>Learn to build creative robots using RCX and NXT Lego Mindstorms.</li>
+                    <li>Has volunteered in robotic workshops and experienced to teach young talents
+                      on many national level projects.</li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Hobbies</dt>
+            <dd>Cooking, Painting, Reading books</dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Awards</dt>
+            <dd>
+              <ul>
+                <li>Participated in inter school art competition and won second place in 2002.</li>
+                <li>In 2002 participated in a state level drawing competition on a theme “Unity in Diversity”</li>
+                <li>Participated in Ad-zap, Junk Art on a National Science day,2003.</li>
+                <li>Took part in a national level technical Symposium in 2009.</li>
+                <li>Won third place in 100 meters Running race & runners up in Inter -school Basket Ball
+game 2003.</li>
+                </ul>
+      </dd>
+
+            <dd class="clear"></dd>
+        </dl>
+
+        <div class="clear"></div>
+
+    </div>
+
+</body>
+
+</html>
+ 
+              
